@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avantdentalcare</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <img src="logo.png" alt="Avantdentalcare Logo" class="h-10 w-10 rounded-full" />
+        <span class="text-2xl font-bold text-blue-600">Avantdentalcare</span>
+      </div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#services" class="hover:text-blue-600">Services</a></li>
+          <li><a href="#about" class="hover:text-blue-600">About</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-cover bg-center" style="background-image: url('clinic.jpg');">
+    <div class="bg-white bg-opacity-70 p-10 rounded">
+      <h2 class="text-4xl font-bold mb-4">Your Smile, Our Priority</h2>
+      <p class="text-lg mb-6">Trusted Dental Care for All Ages</p>
+      <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Book an Appointment</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 px-6 bg-white">
+    <h3 class="text-3xl font-semibold text-center mb-10">Our Services</h3>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-blue-50 p-6 rounded shadow">
+        <h4 class="font-bold text-xl mb-2">Teeth Cleaning</h4>
+        <p>Professional dental cleaning to keep your smile fresh and healthy.</p>
+      </div>
+      <div class="bg-blue-50 p-6 rounded shadow">
+        <h4 class="font-bold text-xl mb-2">Cosmetic Dentistry</h4>
+        <p>Whitening, veneers, and more to enhance your smile's beauty.</p>
+      </div>
+      <div class="bg-blue-50 p-6 rounded shadow">
+        <h4 class="font-bold text-xl mb-2">Root Canal Treatment</h4>
+        <p>Painless and effective root canal procedures by experts.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 px-6 bg-gray-100">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-4">About Us</h3>
+      <p class="text-lg">At Avantdentalcare, we believe in compassionate, comprehensive, and cutting-edge dental care. Our experienced team is committed to making your dental visit comfortable and effective.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-6 bg-white">
+    <div class="max-w-xl mx-auto">
+      <h3 class="text-3xl font-semibold text-center mb-6">Get in Touch</h3>
+      <form class="space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full p-3 border rounded" required />
+        <input type="email" placeholder="Your Email" class="w-full p-3 border rounded" required />
+        <textarea placeholder="Your Message" class="w-full p-3 border rounded" rows="5" required></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center py-4">
+    &copy; 2025 Avantdentalcare. All rights reserved.
+  </footer>
+
+</body>
+</html>
