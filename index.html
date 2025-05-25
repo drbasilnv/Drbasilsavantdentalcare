@@ -112,16 +112,26 @@
 </section>
 
   <!-- Contact -->
-  <form action="https://formsubmit.co/drbasilnv@gmail.com" method="POST">
-  <input type="hidden" name="_subject" value="New Message from Contact Form">
-  <input type="hidden" name="_next" value="https://yourusername.github.io/thankyou.html">
+<section id="contact" class="py-16 px-6 bg-white">
+  <div class="max-w-xl mx-auto">
+    <h3 class="text-3xl font-semibold text-center mb-6">Get in Touch</h3>
+    <form action="https://formsubmit.co/drbasilnv@gmail.com.com" method="POST" class="space-y-4 bg-gray-50 p-6 rounded shadow-md">
+      <input type="hidden" name="_subject" value="New Message from Contact Form">
+      <input type="hidden" name="_next" value="https://yourusername.github.io/thankyou.html">
 
-  <input type="text" name="name" placeholder="Your Name" required><br><br>
-  <input type="email" name="email" placeholder="Your Email" required><br><br>
-  <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br><br>
-  <button type="submit">Send Message</button>
-  </form>
-
+      <input type="text" name="name" placeholder="Your Name" required class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" />
+      
+      <input type="email" name="email" placeholder="Your Email" required class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" />
+      
+      <textarea name="message" placeholder="Your Message" rows="5" required class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+      
+      <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded hover:bg-blue-700 transition duration-300 font-semibold">
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+  
   <!-- WhatsApp Chat Button -->
   <a href="https://wa.me/919747484866?text=Hello%20Avantdentalcare%2C%20I%20would%20like%20to%20book%20an%20appointment."
      class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg bounce"
