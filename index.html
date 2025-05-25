@@ -5,23 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Avantdentalcare</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
   <!-- Navbar -->
   <header class="bg-white shadow-md">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between">
       <div class="flex items-center space-x-2">
         <img src="avant_dento(JPG).jpg" alt="Avantdentalcare Logo" class="h-10 w-10 rounded-full" />
-        <span class="text-2xl font-bold text-blue-600">Avantdentalcare</span>
+        <span class="text-2xl font-bold text-blue-600 whitespace-nowrap">Avantdentalcare</span>
       </div>
-      <nav>
-        <ul class="flex space-x-6">
+      <nav class="w-full md:w-auto mt-2 md:mt-0">
+        <ul class="flex justify-center md:justify-end space-x-6">
           <li><a href="#services" class="hover:text-blue-600">Services</a></li>
           <li><a href="#about" class="hover:text-blue-600">About</a></li>
           <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
@@ -32,7 +27,7 @@
 
   <!-- Hero Section -->
   <section class="text-center py-20 bg-cover bg-center" style="background-image: url('clinic.jpg');">
-    <div class="bg-white bg-opacity-70 p-10 rounded">
+    <div class="bg-white bg-opacity-70 p-10 rounded max-w-2xl mx-auto">
       <h2 class="text-4xl font-bold mb-4">Your Smile, Our Priority</h2>
       <p class="text-lg mb-6">Trusted Dental Care for All Ages</p>
       <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Book an Appointment</a>
@@ -40,51 +35,59 @@
   </section>
 
   <!-- Services -->
-  <section id="services" class="pt-24 pb-16 px-6 bg-white scroll-mt-24">
+  <section id="services" class="py-16 px-6 bg-white">
     <h3 class="text-3xl font-semibold text-center mb-10">Our Services</h3>
-    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-      <div class="bg-blue-50 p-6 rounded shadow">
-        <h4 class="font-bold text-xl mb-2">Teeth Cleaning</h4>
-        <p>Professional dental cleaning to keep your smile fresh and healthy.</p>
+    <div class="overflow-x-auto">
+      <div class="flex space-x-6 w-max">
+        <div class="bg-blue-50 p-6 rounded shadow min-w-[250px]">
+          <h4 class="font-bold text-xl mb-2">Teeth Cleaning</h4>
+          <p>Professional dental cleaning to keep your smile fresh and healthy.</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded shadow min-w-[250px]">
+          <h4 class="font-bold text-xl mb-2">Cosmetic Dentistry</h4>
+          <p>Enhance your teeth’s appearance with modern cosmetic treatments.</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded shadow min-w-[250px]">
+          <h4 class="font-bold text-xl mb-2">Root Canal Treatment</h4>
+          <p>Painless and effective root canal procedures by experts.</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded shadow min-w-[250px]">
+          <h4 class="font-bold text-xl mb-2">Smile Correction</h4>
+          <p>Improve alignment and aesthetics for a confident smile.</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded shadow min-w-[250px]">
+          <h4 class="font-bold text-xl mb-2">Laser Dentistry</h4>
+          <p>Precise and painless treatments using advanced dental lasers.</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded shadow min-w-[250px]">
+          <h4 class="font-bold text-xl mb-2">Preventive Dentistry</h4>
+          <p>Routine care and guidance to prevent dental issues early on.</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded shadow min-w-[250px]">
+          <h4 class="font-bold text-xl mb-2">Tooth Jewelry</h4>
+          <p>Decorate your teeth with safe and stylish dental jewels.</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded shadow min-w-[250px]">
+          <h4 class="font-bold text-xl mb-2">Implants</h4>
+          <p>Restore missing teeth with natural-looking and durable implants.</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded shadow min-w-[250px]">
+          <h4 class="font-bold text-xl mb-2">Full Mouth Reconstruction</h4>
+          <p>Comprehensive restoration for function and aesthetics of your smile.</p>
+        </div>
       </div>
-      <div class="bg-blue-50 p-6 rounded shadow">
-        <h4 class="font-bold text-xl mb-2">Cosmetic Dentistry</h4>
-        <p>Whitening, veneers, and more to enhance your smile's beauty.</p>
-      </div>
-      <div class="bg-blue-50 p-6 rounded shadow">
-        <h4 class="font-bold text-xl mb-2">Smile Correction</h4>
-        <p>Transform your smile with advanced correction procedures.</p>
-      </div>
-      <div class="bg-blue-50 p-6 rounded shadow">
-        <h4 class="font-bold text-xl mb-2">Laser Dentistry</h4>
-        <p>Painless and precise dental treatments using laser technology.</p>
-      </div>
-      <div class="bg-blue-50 p-6 rounded shadow">
-        <h4 class="font-bold text-xl mb-2">Preventive Dentistry</h4>
-        <p>Regular checkups and advice to keep dental issues at bay.</p>
-      </div>
-      <div class="bg-blue-50 p-6 rounded shadow">
-        <h4 class="font-bold text-xl mb-2">Tooth Jewellery</h4>
-        <p>Add sparkle to your smile with safe and stylish dental jewelry.</p>
-      </div>
-      <div class="bg-blue-50 p-6 rounded shadow">
-        <h4 class="font-bold text-xl mb-2">Dental Implants</h4>
-        <p>Restore missing teeth with strong, natural-looking implants.</p>
-      </div>
-      <div class="bg-blue-50 p-6 rounded shadow">
-        <h4 class="font-bold text-xl mb-2">Full Mouth Reconstruction</h4>
-        <p>Comprehensive treatment to rebuild and restore your oral health.</p>
-      </div>
-    </div>
-    <div class="flex justify-center mt-10">
-      <a href="works.html" class="inline-block px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 text-lg font-semibold">
-        See Our Work
-      </a>
     </div>
   </section>
 
+  <!-- See Our Work Button -->
+  <div class="flex justify-center mt-8">
+    <a href="works.html" class="inline-block px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 text-lg font-semibold">
+      See Our Work
+    </a>
+  </div>
+
   <!-- About -->
-  <section id="about" class="py-16 px-6 bg-gray-100 scroll-mt-24">
+  <section id="about" class="py-16 px-6 bg-gray-100">
     <div class="max-w-4xl mx-auto text-center">
       <h3 class="text-3xl font-semibold mb-4">About Us</h3>
       <p class="text-lg">At Avantdentalcare, we believe in compassionate, comprehensive, and cutting-edge dental care. Our experienced team is committed to making your dental visit comfortable and effective.</p>
@@ -92,7 +95,7 @@
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="py-16 px-6 bg-white scroll-mt-24">
+  <section id="contact" class="py-16 px-6 bg-white">
     <div class="max-w-xl mx-auto">
       <h3 class="text-3xl font-semibold text-center mb-6">Get in Touch</h3>
       <form class="space-y-4">
@@ -110,4 +113,4 @@
   </footer>
 
 </body>
-  </html>
+          </html>
