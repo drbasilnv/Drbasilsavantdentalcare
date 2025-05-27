@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+yu<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -14,17 +14,11 @@
       50% { transform: translateY(-8px); }
     }
   </style>
-  <style>
-    .hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end; /* content താഴേക്ക് പോവാൻ */
-  align-items: center;
-  height: 100vh; /* full screen height */
-  padding-bottom: 100px; /* adjust this to expose the face */
-  text-align: center;
-    }
-  </style>
+ <style>
+  .move-down {
+    margin-top: 180px; /* ആവശ്യാനുസരണം value കുറയ്ക്കാം/കൂടിക്കാം */
+  }
+ </style> 
 </head>
 <body class="bg-gray-50 text-gray-800">
 
@@ -49,7 +43,7 @@
   <!-- Hero Section -->
 <section class="text-center py-20 bg-cover bg-center relative" style="background-image: url('IMG_20250525_180003.jpg');">
   <div class="absolute inset-0 bg-white bg-opacity-70"></div>
-  <div class="relative z-10 max-w-2xl mx-auto p-10 rounded">
+  <div class="relative z-10 max-w-2xl mx-auto p-10 rounded move-down">
     <h2 class="text-4xl font-bold mb-4">Your Smile, Our Priority</h2>
     <p class="text-lg mb-6">Trusted Dental Care for All Ages</p>
     <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Book an Appointment</a>
